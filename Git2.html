@@ -1,0 +1,86 @@
+<html>
+<link rel="stylesheet" type="text/css" href="css.css">
+<link rel="stylesheet" type="text/css" href="Git.css">
+	<meta charset="utf-8">
+	<title>Quelques commandes de bases Git.</title>
+	<body background="images.jpeg" style=color:white>
+			<h1 align=center>Quelques commandes de bases.</h1>
+			<br>
+			<table>
+				<tr>
+				<center>
+					<ul id="menu-accordeon">
+					<li><a href="#">Git</a>
+					<ul>
+						<li><a href="index.html">1.Qu'est-ce que Git ?</a></li>
+						<li><a href="Git3.html">3.Quelques sites pour plus de commandes.</a></li>					
+					</ul>
+					</center>	
+				</tr>
+				</table>
+			<br>
+	<table>
+	<td>
+	<ul>
+			<p><li>Pour cloner un dépôt existant, c’est-à-dire, le récupérer sur votre machine:git clone http://github.com/path/depository.git
+			Par exemple, ou avec ssh:// selon le protocole.</li>
+			<br>
+			<li>Pour connaître les fichiers modifiés récemment:
+			git status</li>
+			<br>
+			<li>Pour voir ce qui a été changé:
+			git diff</li>
+			<br>
+			<li>Pour ajouter des fichiers à prendre en compte lors du commit:
+			git add fichier1 fichier2</li>
+			<br>
+			<li>Pour faire un commit, ie sauvegarder vos changements:
+			git commit</li>
+			<br>
+			<li>Inclure tous les fichiers listés dans git status: git commit -a</li>
+			<br>
+			<li>Indiquer précisément quels fichiers inclure: git commit fichier1 fichier2</li>
+			<br>
+			<li>Visionner les logs:
+			git log</li>
+			<br>
+			<li>Options utiles: -p ou –statModifier le dernier message de commit:
+			git commit –amend</li>
+			<br>
+			<li>Restaurer un fichier à son état du dernier commit:
+			git checkout fichier</li>
+			<br>
+			<li>Récupérer les nouveautés présentes sur le serveur:
+			git pull</li>
+			<br>
+			<li>Envoyer ses propres modifications au serveur:
+			git push</li>
+			<br>
+			<li>Annulé un commit publié:
+			git revert idDuCommit</li>
+
+			<br>
+			<center><h3>Les branches</h3></center>
+			<br>
+
+			<li>Voir les branches:
+			git branch
+			On trouve une étoile devant la branche où on se trouve.</li>
+			<br>
+			<li>Créer une branche:
+			git branch nomBranche</li>
+			<br>
+			<li>Se placer dans une branche:
+			git checkout nomBranche</li>
+			<br>
+			<li>Fusionner une branche dans la branche où vous vous trouvez:
+			git merge nomBranche</li>
+			<br>
+			<li>Supprimer une branche:
+			git branch -d nomBranche</li></p>
+		</ul>
+	</td>
+	</table>
+	<center><span class="copyright" dir="ltr">© 2015 Alexis</span></center>
+	</body>
+</html>
